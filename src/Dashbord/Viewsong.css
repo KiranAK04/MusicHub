@@ -1,0 +1,66 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align content horizontally at the center */
+  }
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 5px; 
+  }
+  
+  .song-list {
+    margin-top: 20px;
+    margin: 0;
+    padding: 20px;
+   
+  }
+  .song-info{
+    margin-right: 10%;
+  }
+  
+  .no-songs {
+    font-style: italic;
+  }
+  
+  .song-item {
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+ .album-art {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+
+  } 
+  
+  .song-details {
+    flex: 1;
+  }
+  
+  .song-name {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 2px;
+  }
+  
+  .artist, .genre {
+    margin: 0;
+    font-style: italic;
+  }
+  
+  .audio-player {
+    margin-top: 10px;
+  }

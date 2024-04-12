@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    width: 80%;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-right: 100px;
+  }
+  
+  th,
+  td {
+    padding: 5px;
+    text-align: left;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 10px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    
+  }
+  
+  span {
+    margin-right: 10px;
+  }
+  
+  audio {
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+  
+  /* Adjustments for responsiveness */
+  @media screen and (max-width: 600px) {
+    .box {
+      width: 90%;
+    }
+  }
+  
+  
